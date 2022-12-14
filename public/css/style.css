@@ -21606,9 +21606,40 @@ nav::after {
 #sec1 {
   margin-top: 6%;
   background-color: black;
+  padding-right: 15%;
+  padding-left: 15%;
 }
 #sec1 i {
   font-size: 60px;
+}
+
+.sec1btn3 {
+  z-index: 1;
+  cursor: pointer;
+  position: relative;
+  height: 45px;
+  width: 25%;
+  border: 2px solid white;
+  background-color: rgba(0, 0, 0, 0);
+}
+.sec1btn3 div {
+  content: "";
+  background-color: rgba(255, 71, 51, 0.5019607843);
+  border-radius: 150px;
+  width: 100%;
+  z-index: -2;
+  position: absolute;
+  height: 100%;
+  top: 4px;
+  left: 3px;
+  transition: 0.2s;
+}
+.sec1btn3:hover {
+  color: white;
+}
+.sec1btn3:hover div {
+  top: 0px;
+  left: 0px;
 }
 
 /*# sourceMappingURL=style.css.map */
