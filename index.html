@@ -11,11 +11,61 @@
 
 <body>
     <header>
-        <nav>
-            <div>
-
+        <nav class="navbar navbar-expand-lg bg-white">
+            <div class="container-fluid">
+                <a class="navbar-brand ps-4" href="#">
+                    <img src="./public/img/logo/logo.png" alt="Logo" width="30" height="24"
+                        class="d-inline-block align-text-top img-fluid">
+                    Molengeek
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Services
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Machine Learning</a></li>
+                                <li><a class="dropdown-item" href="#">Computer Vision</a></li>
+                                <li><a class="dropdown-item" href="#">Internet of Things</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="#">Help</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="nav-item d-flex">
+                    <button class="headbtn btn me-2"><i class="fa-brands fa-facebook-f"></i> <div></div></button>
+                    <button class="headbtn btn me-5"><i class="fa-brands fa-twitter"></i> <div></div></button>
+                    <button class="headbtn2 btn rounded-pill me-5">Free Quote<div></div></button>
+                </div>
             </div>
         </nav>
+        <div class="container w-75" style="margin-top: 8%!important;">
+            <div class="row">
+                <div class="col ms-5">
+                    <p>INgitTUITIVE USER EXPERIENCE</p>
+                    <h1 style="font-size: 60px">IT Consulting</h1>
+                    <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Consequatur, modi doloribus voluptate id
+                        exercitationem et,<br>expedita incidunt obcaecati doloremque vitae animi!</p>
+                    <button class="headbtn3 btn rounded-pill mt-4">Get Started<div></div></button>
+                </div>
+                <div class="col"><img src="./public/img/02.jpeg" alt="Portable" class="w-75 rounded-3 img-fluid"></div>
+            </div>
+        </div>
     </header>
     <main>
         <section>
