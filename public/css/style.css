@@ -21689,4 +21689,12 @@ nav::after {
   z-index: 2;
 }
 
+#sec1 {
+  margin-top: 6%;
+  background-color: black;
+}
+#sec1 i {
+  font-size: 60px;
+}
+
 /*# sourceMappingURL=style.css.map */
