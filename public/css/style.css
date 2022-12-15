@@ -21967,5 +21967,8 @@ p {
 #sec3 h3:hover, #sec3 .h3:hover {
   color: rgb(255, 144, 131) !important;
 }
+#sec3 .fa-arrow-right {
+  top: 6%;
+}
 
 /*# sourceMappingURL=style.css.map */
