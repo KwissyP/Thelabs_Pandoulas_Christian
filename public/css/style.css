@@ -21945,6 +21945,10 @@ p {
 #sec2 .d-flex div:hover p {
   color: white;
 }
+#sec2 .d-flex div:hover .arrows {
+  transition: 0.5s;
+  transform: rotate(360deg);
+}
 
 .arrows {
   position: absolute;
