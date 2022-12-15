@@ -21976,4 +21976,11 @@ p {
   border-radius: 5px;
 }
 
+#sec4 {
+  margin-left: 16%;
+}
+#sec4 .nav-link {
+  border-bottom: 3px solid #f8f8f8 !important;
+}
+
 /*# sourceMappingURL=style.css.map */
