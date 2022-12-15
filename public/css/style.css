@@ -21978,6 +21978,7 @@ p {
 
 #sec4 {
   margin-left: 16%;
+  margin-bottom: -15%;
 }
 #sec4 .nav-link {
   border-bottom: 3px solid #f8f8f8 !important;
@@ -22026,6 +22027,10 @@ p {
 #sec4 .sec4btn i {
   bottom: 5%;
   right: 23%;
+}
+
+#sec5 {
+  margin-left: 17%;
 }
 
 /*# sourceMappingURL=style.css.map */
