@@ -1,4 +1,12 @@
 @charset "UTF-8";
+@font-face {
+  font-family: "Museo";
+  src: url("../../public/fonts/MuseoModerno-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: "Jost";
+  src: url("../../public/fonts/Jost-VariableFont_wght.ttf");
+}
 /*!
  * Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
@@ -21576,8 +21584,20 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+h1, .h1 {
+  font-family: "Museo";
+}
+
+* {
+  font-family: "Jost";
+}
+
 p {
   color: grey;
+}
+
+.navbar-brand {
+  font-family: "Museo";
 }
 
 .headbtn {
