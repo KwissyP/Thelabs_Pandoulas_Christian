@@ -21929,6 +21929,7 @@ p {
   border: 3px solid #EFEFEF;
   width: 33%;
   padding: 2%;
+  position: relative;
 }
 #sec2 .d-flex div i {
   font-size: 50px;
@@ -21943,6 +21944,13 @@ p {
 }
 #sec2 .d-flex div:hover p {
   color: white;
+}
+
+.arrows {
+  position: absolute;
+  left: 90%;
+  top: 5%;
+  rotate: -45deg;
 }
 
 /*# sourceMappingURL=style.css.map */
