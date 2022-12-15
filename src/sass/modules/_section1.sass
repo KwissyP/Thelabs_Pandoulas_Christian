@@ -48,7 +48,8 @@
         width: 100px
         top: 7px
         left: 7px
-    &:hover::after
+    &::after
+        content: ''
         position: absolute
         width: 100px
         height: 100px
@@ -57,3 +58,8 @@
         background-color: transparent 
         top: 0
         left: 0
+    &:hover::before
+        transform: translate(-7px,-7px)
+    &:hover::after
+        border: none
+        

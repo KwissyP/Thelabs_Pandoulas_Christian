@@ -21638,7 +21638,8 @@ textarea.form-control-lg {
   top: 7px;
   left: 7px;
 }
-.btntest:hover::after {
+.btntest::after {
+  content: "";
   position: absolute;
   width: 100px;
   height: 100px;
@@ -21647,6 +21648,12 @@ textarea.form-control-lg {
   background-color: transparent;
   top: 0;
   left: 0;
+}
+.btntest:hover::before {
+  transform: translate(-7px, -7px);
+}
+.btntest:hover::after {
+  border: none;
 }
 
 /*# sourceMappingURL=style.css.map */
