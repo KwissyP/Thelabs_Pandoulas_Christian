@@ -21590,32 +21590,37 @@ textarea.form-control-lg {
 }
 
 .sec1btn3 {
-  z-index: 1;
-  cursor: pointer;
   position: relative;
   height: 45px;
   width: 25%;
-  border: 2px solid white;
-  background-color: rgba(0, 0, 0, 0);
 }
-.sec1btn3 div {
+.sec1btn3::before {
   content: "";
-  background-color: rgba(255, 71, 51, 0.5019607843);
-  border-radius: 150px;
-  width: 100%;
-  z-index: -2;
   position: absolute;
-  height: 100%;
-  top: 4px;
-  left: 3px;
-  transition: 0.2s;
+  background-color: rgb(255, 144, 131);
+  height: 45px;
+  width: 100%;
+  border-radius: 25px;
+  top: 5px;
+  left: 5px;
 }
-.sec1btn3:hover {
-  color: white;
+.sec1btn3::after {
+  content: "Contact us";
+  position: absolute;
+  padding-top: 9px;
+  width: 100%;
+  height: 45px;
+  border: 1px solid white;
+  border-radius: 25px;
+  background-color: transparent;
+  top: 0;
+  left: 0;
 }
-.sec1btn3:hover div {
-  top: 0px;
-  left: 0px;
+.sec1btn3:hover::before {
+  transform: translate(-5px, -5px);
+}
+.sec1btn3:hover::after {
+  border: none;
 }
 
 .purpbtn {
@@ -21623,37 +21628,95 @@ textarea.form-control-lg {
   width: 12%;
 }
 
-.btntest {
+.btnsec {
   position: relative;
-  height: 100px;
-  width: 100px;
+  height: 25px;
+  width: 25px;
 }
-.btntest::before {
+.btnsec::before {
   content: "";
   position: absolute;
-  background-color: blue;
-  border-radius: 50%;
-  height: 100px;
-  width: 100px;
-  top: 7px;
-  left: 7px;
+  background-color: rgb(255, 144, 131);
+  height: 25px;
+  width: 100%;
+  border-radius: 5px;
+  top: 3px;
+  left: 3px;
 }
-.btntest::after {
+.btnsec::after {
   content: "";
   position: absolute;
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  border: 2px solid black;
+  padding-top: 9px;
+  width: 100%;
+  height: 25px;
+  border: 2px solid white;
+  border-radius: 5px;
   background-color: transparent;
   top: 0;
   left: 0;
 }
-.btntest:hover::before {
-  transform: translate(-7px, -7px);
+
+.btnsec1 {
+  position: relative;
+  height: 25px;
+  width: 25px;
 }
-.btntest:hover::after {
-  border: none;
+.btnsec1::before {
+  content: "";
+  position: absolute;
+  background-color: rgb(114, 223, 233);
+  height: 25px;
+  width: 100%;
+  border-radius: 5px;
+  top: 3px;
+  left: 3px;
+}
+.btnsec1::after {
+  content: "";
+  position: absolute;
+  padding-top: 9px;
+  width: 100%;
+  height: 25px;
+  border: 2px solid white;
+  border-radius: 5px;
+  background-color: transparent;
+  top: 0;
+  left: 0;
+}
+
+.btnsec2 {
+  position: relative;
+  height: 25px;
+  width: 25px;
+}
+.btnsec2::before {
+  content: "";
+  position: absolute;
+  background-color: rgb(168, 170, 241);
+  height: 25px;
+  width: 100%;
+  border-radius: 5px;
+  top: 3px;
+  left: 3px;
+}
+.btnsec2::after {
+  content: "";
+  position: absolute;
+  padding-top: 9px;
+  width: 100%;
+  height: 25px;
+  border: 2px solid white;
+  border-radius: 5px;
+  background-color: transparent;
+  top: 0;
+  left: 0;
+}
+
+.hovsec1 .row .col {
+  padding: 2%;
+}
+.hovsec1 .row .col:hover {
+  background-color: #42424B;
 }
 
 /*# sourceMappingURL=style.css.map */
