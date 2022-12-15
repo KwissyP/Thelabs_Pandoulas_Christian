@@ -21981,6 +21981,41 @@ p {
 }
 #sec4 .nav-link {
   border-bottom: 3px solid #f8f8f8 !important;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+  transition-property: all;
+}
+#sec4 .nav-link:focus {
+  border-bottom: 3px solid #72dfe9 !important;
+  color: black !important;
+}
+#sec4 .sec4btn {
+  position: relative;
+  height: 25px;
+  width: 25px;
+}
+#sec4 .sec4btn::before {
+  content: "";
+  position: absolute;
+  background-color: rgb(168, 170, 241);
+  height: 25px;
+  width: 100%;
+  border-radius: 5px;
+  top: 3px;
+  left: 3px;
+}
+#sec4 .sec4btn::after {
+  content: "";
+  position: absolute;
+  padding-top: 9px;
+  width: 100%;
+  height: 25px;
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: transparent;
+  top: 0;
+  left: 0;
 }
 
 /*# sourceMappingURL=style.css.map */
