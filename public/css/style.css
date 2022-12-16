@@ -21917,6 +21917,7 @@ p {
 
 footer {
   margin-top: -1%;
+  z-index: -2;
 }
 footer #footerlogo {
   height: 60px;
@@ -21942,6 +21943,117 @@ footer #foota a {
 }
 footer #foota a:hover {
   color: rgb(255, 144, 131);
+}
+footer .footerbtn1 {
+  position: relative;
+  height: 40px;
+  width: 40px;
+}
+footer .footerbtn1::before {
+  content: "";
+  position: absolute;
+  background-color: rgb(168, 170, 241);
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  top: 5px;
+  left: 5px;
+  z-index: 0;
+}
+footer .footerbtn1::after {
+  content: "\f3c5";
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  color: white;
+  font-size: 25px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border: 2px solid white;
+  border-radius: 50%;
+  background-color: transparent;
+  top: 0;
+  left: 0;
+}
+footer .footerbtn1:hover::before {
+  transform: translate(-3px, -3px);
+}
+footer .footerbtn1:hover::after {
+  border: none;
+}
+footer .footerbtn2 {
+  position: relative;
+  height: 40px;
+  width: 40px;
+}
+footer .footerbtn2::before {
+  content: "";
+  position: absolute;
+  background-color: rgb(255, 144, 131);
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  top: 5px;
+  left: 5px;
+  z-index: 0;
+}
+footer .footerbtn2::after {
+  content: "\f0e0";
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  color: white;
+  font-size: 25px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border: 2px solid white;
+  border-radius: 50%;
+  background-color: transparent;
+  top: 0;
+  left: 0;
+}
+footer .footerbtn2:hover::before {
+  transform: translate(-3px, -3px);
+}
+footer .footerbtn2:hover::after {
+  border: none;
+}
+footer .footerbtn3 {
+  position: relative;
+  height: 40px;
+  width: 40px;
+}
+footer .footerbtn3::before {
+  content: "";
+  position: absolute;
+  background-color: rgb(114, 223, 233);
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  top: 5px;
+  left: 5px;
+  z-index: 0;
+}
+footer .footerbtn3::after {
+  content: "\f095";
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  color: white;
+  font-size: 25px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border: 2px solid white;
+  border-radius: 50%;
+  background-color: transparent;
+  top: 0;
+  left: 0;
+}
+footer .footerbtn3:hover::before {
+  transform: translate(-3px, -3px);
+}
+footer .footerbtn3:hover::after {
+  border: none;
 }
 
 .purpara {
