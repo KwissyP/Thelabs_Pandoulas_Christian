@@ -21915,6 +21915,30 @@ p {
   background-color: #42424B;
 }
 
+footer {
+  margin-top: -1%;
+}
+footer #footerlogo {
+  height: 60px;
+  width: 60px;
+}
+footer h3, footer .h3 {
+  font-family: "Museo";
+}
+footer p {
+  color: white;
+}
+footer #footico i:hover {
+  background-color: rgb(114, 223, 233);
+}
+footer #foota a {
+  text-decoration: none;
+  color: white;
+}
+footer #foota a:hover {
+  color: rgb(255, 144, 131);
+}
+
 .purpara {
   width: 12%;
   text-align: center;
