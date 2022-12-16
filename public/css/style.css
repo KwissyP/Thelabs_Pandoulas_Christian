@@ -22161,5 +22161,48 @@ p {
   width: 13%;
   margin-left: 42%;
 }
+#sec6 img {
+  height: 218px;
+  width: 218px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+#sec6 .sec6img {
+  position: relative;
+  transition: all 0.3s;
+}
+#sec6 .sec6img::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  border-radius: 8px;
+  left: 0;
+  width: 218px;
+  height: 218px;
+  transition: all 0.3s;
+  background: #a8aaf1;
+  pointer-events: none;
+  opacity: 0;
+}
+#sec6 .sec6img::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  border-radius: 8px;
+  border: 2px solid #1c1c25;
+  transform: translate(-8px, -8px);
+  left: 0;
+  width: 218px;
+  pointer-events: none;
+  height: 218px;
+  background: transparent;
+  opacity: 0;
+}
+#sec6 .sec6img:hover::before {
+  opacity: 0.7;
+}
+#sec6 .sec6img:hover::after {
+  opacity: 0.7;
+}
 
 /*# sourceMappingURL=style.css.map */
