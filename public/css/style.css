@@ -21840,9 +21840,10 @@ p {
   left: 3px;
 }
 .btnsec::after {
-  content: "";
+  content: "\f054";
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
   position: absolute;
-  padding-top: 9px;
   width: 100%;
   height: 25px;
   border: 2px solid white;
@@ -21850,6 +21851,12 @@ p {
   background-color: transparent;
   top: 0;
   left: 0;
+}
+.btnsec:hover::before {
+  transform: translate(-3px, -3px);
+}
+.btnsec:hover::after {
+  border: none;
 }
 
 .btnsec1 {
@@ -21868,9 +21875,10 @@ p {
   left: 3px;
 }
 .btnsec1::after {
-  content: "";
+  content: "\f054";
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
   position: absolute;
-  padding-top: 9px;
   width: 100%;
   height: 25px;
   border: 2px solid white;
@@ -21878,6 +21886,12 @@ p {
   background-color: transparent;
   top: 0;
   left: 0;
+}
+.btnsec1:hover::before {
+  transform: translate(-3px, -3px);
+}
+.btnsec1:hover::after {
+  border: none;
 }
 
 .btnsec2 {
@@ -21896,9 +21910,10 @@ p {
   left: 3px;
 }
 .btnsec2::after {
-  content: "";
+  content: "\f054";
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
   position: absolute;
-  padding-top: 9px;
   width: 100%;
   height: 25px;
   border: 2px solid white;
@@ -21906,6 +21921,12 @@ p {
   background-color: transparent;
   top: 0;
   left: 0;
+}
+.btnsec2:hover::before {
+  transform: translate(-3px, -3px);
+}
+.btnsec2:hover::after {
+  border: none;
 }
 
 .hovsec1 .row .col {
