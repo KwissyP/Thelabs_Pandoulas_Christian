@@ -22027,6 +22027,9 @@ p {
   bottom: 5%;
   right: 23%;
 }
+#sec4 .sec4btn:hover i {
+  color: white;
+}
 #sec4 img {
   width: 65%;
 }
@@ -22206,6 +22209,78 @@ p {
 }
 #sec6 .sec6img:hover::after {
   opacity: 0.7;
+}
+#sec6 .sec6btn1 {
+  position: relative;
+  height: 40px;
+  width: 40px;
+}
+#sec6 .sec6btn1::before {
+  content: "";
+  position: absolute;
+  background-color: rgb(168, 170, 241);
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  top: 5px;
+  left: 5px;
+  z-index: -1;
+}
+#sec6 .sec6btn1::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border: 2px solid black;
+  border-radius: 50%;
+  background-color: transparent;
+  top: 0;
+  left: 0;
+}
+#sec6 .sec6btn1:hover::before {
+  transform: translate(-3px, -3px);
+}
+#sec6 .sec6btn1:hover::after {
+  border: none;
+}
+#sec6 .sec6btn1:hover i {
+  color: white;
+}
+#sec6 .sec6btn2 {
+  position: relative;
+  height: 40px;
+  width: 40px;
+}
+#sec6 .sec6btn2::before {
+  content: "";
+  position: absolute;
+  background-color: rgb(255, 144, 131);
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  top: 5px;
+  left: 5px;
+  z-index: -1;
+}
+#sec6 .sec6btn2::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border: 2px solid black;
+  border-radius: 50%;
+  background-color: transparent;
+  top: 0;
+  left: 0;
+}
+#sec6 .sec6btn2:hover::before {
+  transform: translate(-3px, -3px);
+}
+#sec6 .sec6btn2:hover::after {
+  border: none;
+}
+#sec6 .sec6btn2:hover i {
+  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */
