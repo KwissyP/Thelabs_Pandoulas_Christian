@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @font-face {
   font-family: "Museo";
-  src: url("../../public/fonts/MuseoModerno-VariableFont_wght.ttf");
+  src: url("../../public/fonts/MuseoModerno-Bold.ttf");
 }
 @font-face {
   font-family: "Jost";
@@ -22032,6 +22032,9 @@ p {
 #sec5 {
   margin-left: 17%;
   margin-right: 15%;
+}
+#sec5 .sec5bgc {
+  background-image: url("../../public/img/Grisclair.png");
 }
 
 /*# sourceMappingURL=style.css.map */
