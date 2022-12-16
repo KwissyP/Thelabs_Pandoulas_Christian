@@ -22089,6 +22089,7 @@ p {
 }
 #sec5 .sec5btn:hover::after {
   border: none;
+  color: white;
 }
 #sec5 .sec5btn2 {
   position: relative;
@@ -22122,6 +22123,7 @@ p {
 }
 #sec5 .sec5btn2:hover::after {
   border: none;
+  color: white;
 }
 #sec5 .sec5btn3 {
   position: relative;
@@ -22155,6 +22157,7 @@ p {
 }
 #sec5 .sec5btn3:hover::after {
   border: none;
+  color: white;
 }
 
 #sec6 {
