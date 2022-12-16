@@ -21931,9 +21931,14 @@ footer p {
 footer #footico i:hover {
   background-color: rgb(114, 223, 233);
 }
+footer #foota {
+  margin-left: 5%;
+}
 footer #foota a {
   text-decoration: none;
   color: white;
+  padding-right: 3%;
+  font-size: 25px;
 }
 footer #foota a:hover {
   color: rgb(255, 144, 131);
