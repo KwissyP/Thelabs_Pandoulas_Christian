@@ -21775,6 +21775,66 @@ p {
   left: 0px;
 }
 
+.navicon {
+  opacity: 0;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: rgb(255, 144, 131);
+  bottom: 0;
+  right: 35%;
+}
+
+.navanim {
+  position: relative;
+}
+.navanim:hover .navicon {
+  animation: in 0.2s forwards;
+}
+.navanim:hover {
+  color: rgb(255, 144, 131) !important;
+}
+
+@keyframes in {
+  0% {
+    opacity: 1;
+    bottom: 5%;
+  }
+  100% {
+    opacity: 1;
+    bottom: -25%;
+  }
+}
+.inside {
+  opacity: 0;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: rgb(255, 144, 131);
+}
+
+.galère {
+  position: relative;
+}
+.galère:hover .inside {
+  animation: mondieu 0.2s forwards;
+}
+.galère:hover {
+  color: rgb(255, 144, 131) !important;
+}
+
+@keyframes mondieu {
+  0% {
+    opacity: 1;
+    left: 0%;
+  }
+  100% {
+    opacity: 1;
+    left: 5%;
+  }
+}
 #sec1 {
   margin-top: 6%;
   background-color: black;
