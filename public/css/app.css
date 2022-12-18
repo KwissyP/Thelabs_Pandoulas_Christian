@@ -23000,6 +23000,16 @@ footer .footerbtn3:hover::after {
   margin-left: 42%;
 }
 
+@media (min-width: 375px) and (max-width: 425px) {
+  #sec7 .top {
+    margin-top: 5%;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  #sec7 .w-75 {
+    width: 100% !important;
+  }
+}
 #sec8 {
   margin-top: 8%;
 }
