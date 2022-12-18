@@ -22177,7 +22177,7 @@ p {
     margin-top: 5%;
   }
   nav {
-    width: 86%;
+    width: 95%;
   }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -22590,6 +22590,24 @@ footer .footerbtn3:hover::after {
   top: 6%;
 }
 
+@media (min-width: 375px) and (max-width: 425px) {
+  .col-lg img {
+    display: none;
+  }
+  .purpbtn2 {
+    width: 42%;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .purpbtn2 {
+    width: 28%;
+  }
+  .col-lg img {
+    height: 300px;
+    margin-left: 33%;
+    margin-bottom: 1%;
+  }
+}
 .purplesec4 {
   width: 18%;
   border-radius: 5px;
