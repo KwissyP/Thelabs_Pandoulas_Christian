@@ -22202,27 +22202,26 @@ footer .footerbtn3:hover::after {
   margin-left: 20%;
   margin-right: 20%;
 }
-#sec2 .d-flex div {
+#sec2 .row div {
   border: 3px solid #EFEFEF;
-  width: 33%;
   padding: 2%;
   position: relative;
 }
-#sec2 .d-flex div i {
+#sec2 .row div i {
   font-size: 50px;
 }
-#sec2 .d-flex div:hover {
+#sec2 .row div:hover {
   background-color: #42424B;
   color: white;
   border: 3px solid #42424B;
 }
-#sec2 .d-flex div:hover i {
+#sec2 .row div:hover i {
   color: white !important;
 }
-#sec2 .d-flex div:hover p {
+#sec2 .row div:hover p {
   color: white;
 }
-#sec2 .d-flex div:hover .arrows {
+#sec2 .row div:hover .arrows {
   transition: 0.5s;
   transform: rotate(360deg);
 }
@@ -22234,6 +22233,23 @@ footer .footerbtn3:hover::after {
   rotate: -45deg;
 }
 
+@media (min-width: 375px) and (max-width: 425px) {
+  .purpara {
+    width: 50%;
+  }
+  .colsec2 {
+    border: 3px solid #EFEFEF !important;
+    margin: 0.5%;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .purpara {
+    width: 25%;
+  }
+  .colsec2 {
+    border: 3px solid #EFEFEF !important;
+  }
+}
 .purpbtn2 {
   width: 12%;
 }
