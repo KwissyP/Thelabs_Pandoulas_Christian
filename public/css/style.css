@@ -22010,8 +22010,13 @@ footer h3, footer .h3 {
 footer p {
   color: white;
 }
-footer #footico i:hover {
+footer #footico .btn i {
+  font-size: 15px;
+}
+footer #footico .btn:hover {
   background-color: rgb(114, 223, 233);
+  color: white;
+  border: none;
 }
 footer #foota {
   margin-left: 5%;
