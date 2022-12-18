@@ -21835,6 +21835,34 @@ p {
     left: 5%;
   }
 }
+@media (min-width: 375px) and (max-width: 425px) {
+  .divhead {
+    padding-top: 20%;
+    margin-right: 18%;
+  }
+  .divhead .row .col h1, .divhead .row .col .h1 {
+    font-size: 40px !important;
+  }
+  .divhead .row .col .headbtn3 {
+    width: 50%;
+  }
+  .divhead .row .col img {
+    margin-left: 15%;
+    margin-top: 5%;
+  }
+  nav {
+    width: 80%;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .headbtn3 {
+    width: 40%;
+  }
+  .divhead img {
+    margin-left: 8%;
+    margin-top: 2%;
+  }
+}
 #sec1 {
   margin-top: 6%;
   background-color: black;
