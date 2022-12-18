@@ -22345,6 +22345,19 @@ footer .footerbtn3:hover::after {
   width: 65%;
 }
 
+@media (min-width: 375px) and (max-width: 425px) {
+  .purplesec4 {
+    width: 36%;
+  }
+  #sec4 img {
+    display: none;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  #sec4 img {
+    margin-left: 10%;
+  }
+}
 #sec5 {
   margin-left: 17%;
   margin-right: 15%;
