@@ -22977,6 +22977,21 @@ footer .footerbtn3:hover::after {
   color: white;
 }
 
+@media (min-width: 375px) and (max-width: 425px) {
+  .sec6purp {
+    width: 60% !important;
+    margin-left: 23% !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .sec6purp {
+    width: 25% !important;
+    margin-left: 37% !important;
+  }
+  .ben {
+    margin-top: 1%;
+  }
+}
 #sec7 {
   margin-top: 8%;
 }
