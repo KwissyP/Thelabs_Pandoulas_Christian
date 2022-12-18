@@ -22166,15 +22166,18 @@ p {
     padding-top: 20%;
     margin-right: 18%;
   }
-  .divhead .row .col h1, .divhead .row .col .h1 {
+  .divhead .row .col-lg h1, .divhead .row .col-lg .h1 {
     font-size: 40px !important;
   }
-  .divhead .row .col .headbtn3 {
+  .divhead .row .col-lg .headbtn3 {
     width: 50%;
   }
-  .divhead .row .col img {
+  .divhead .row .col-lg img {
     margin-left: 15%;
     margin-top: 5%;
+  }
+  nav {
+    width: 86%;
   }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -22184,16 +22187,6 @@ p {
   .divhead img {
     margin-left: 8%;
     margin-top: 2%;
-  }
-  #sec1 .purpbtn {
-    width: 25%;
-    margin-left: 35%;
-  }
-  #sec1 .col-lg .d-flex {
-    padding-left: 20%;
-  }
-  #sec1 .sec1btn3 {
-    width: 50%;
   }
 }
 #sec1 {
@@ -22357,6 +22350,28 @@ p {
   background-color: #42424B;
 }
 
+@media (min-width: 375px) and (max-width: 425px) {
+  #sec1 .purpbtn {
+    width: 50%;
+    margin-left: 26%;
+  }
+  #sec1 .sec1btn3 {
+    width: 70%;
+    margin-right: 30%;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  #sec1 .purpbtn {
+    width: 25%;
+    margin-left: 35%;
+  }
+  #sec1 .col-lg .d-flex {
+    padding-left: 20%;
+  }
+  #sec1 .sec1btn3 {
+    width: 50%;
+  }
+}
 footer {
   margin-top: -1%;
   z-index: -2;
