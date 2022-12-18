@@ -22678,6 +22678,44 @@ footer .footerbtn3:hover::after {
   width: 13%;
   margin-left: 42%;
 }
+#sec7 .accordion-button {
+  position: relative;
+}
+#sec7 .accordion-button::before {
+  content: "";
+  position: absolute;
+  background-color: rgb(114, 223, 233);
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  z-index: -1;
+  border-radius: 25px;
+  transition: 0.3s;
+}
+#sec7 .accordion-button::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border: 2px solid black;
+  border-radius: 25px;
+  background-color: transparent;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+#sec7 .accordion-button:hover::before {
+  opacity: 1;
+  transform: translate(7px, 7px);
+}
+#sec7 .accordion-button:hover::after {
+  opacity: 1;
+}
+#sec7 .accordion-button:focus {
+  color: black !important;
+}
 
 @media (min-width: 375px) and (max-width: 425px) {
   #sec7 .top {
