@@ -22722,4 +22722,18 @@ footer .footerbtn3:hover::after {
   color: white;
 }
 
+@media (min-width: 375px) and (max-width: 425px) {
+  #sec8 .contct {
+    margin-top: 5%;
+  }
+  #sec8 .sec8btn {
+    width: 60%;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  #sec8 .sec8btn {
+    width: 25%;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
