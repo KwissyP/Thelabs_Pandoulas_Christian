@@ -22835,26 +22835,26 @@ footer .footerbtn3:hover::after {
   width: 218px;
   border-radius: 8px;
   cursor: pointer;
+  position: relative;
 }
 #sec6 .sec6img {
   position: relative;
-  transition: all 0.3s;
 }
 #sec6 .sec6img::before {
-  content: "";
   position: absolute;
   top: 0;
   border-radius: 8px;
-  left: 0;
-  width: 100%;
-  height: 100%;
+  left: 6px;
+  width: 218px;
+  height: 218px;
   transition: all 0.3s;
+  content: "";
   background: #a8aaf1;
   pointer-events: none;
   opacity: 0;
+  z-index: 1;
 }
 #sec6 .sec6img::after {
-  content: "";
   position: absolute;
   top: 0;
   border-radius: 8px;
@@ -22863,15 +22863,26 @@ footer .footerbtn3:hover::after {
   left: 0;
   width: 100%;
   pointer-events: none;
+  transition: opacity 0.3s;
   height: 100%;
+  content: "\f178";
+  font-weight: 900;
+  font-size: 30px;
+  font-family: "Font Awesome 6 Free";
   background: transparent;
   opacity: 0;
 }
 #sec6 .sec6img:hover::before {
   opacity: 0.7;
+  transform: translate(5%, 5%);
 }
 #sec6 .sec6img:hover::after {
-  opacity: 0.7;
+  opacity: 1;
+  transform: translate(0px, 0px);
+}
+#sec6 .sec6img:hover img {
+  transiton: all 0.3s;
+  transform: translate(5%, 5%);
 }
 #sec6 .sec6btn1 {
   position: relative;
