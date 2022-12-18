@@ -22176,9 +22176,6 @@ p {
     margin-left: 15%;
     margin-top: 5%;
   }
-  nav {
-    width: 95%;
-  }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
   .headbtn3 {
@@ -22810,6 +22807,14 @@ footer .footerbtn3:hover::after {
   color: white;
 }
 
+@media (min-width: 768px) and (max-width: 1024px) {
+  #sec5 .col-lg {
+    margin-right: 0 !important;
+  }
+  #sec5 .col3sec5 {
+    margin-left: 25%;
+  }
+}
 #sec6 {
   margin-top: 8%;
 }
